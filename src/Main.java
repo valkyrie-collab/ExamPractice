@@ -11,35 +11,33 @@ import com.valkyrie.polimorphism.Dog;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Animal animal = new Animal();
-        // animal.walking(); animal.sound(); animal.numberOfLegs();
+        Animal animal = new Animal();
+        animal.walking(); animal.sound(); animal.numberOfLegs();
 
-        // Animal dog = new Dog();
-        // dog.walking(); dog.sound(); dog.numberOfLegs();
+        Animal dog = new Dog();
+        dog.walking(); dog.sound(); dog.numberOfLegs();
 
-        // Cat cat = new Cat();
-        // cat.walking(); cat.sound(); cat.numberOfLegs();
+        Cat cat = new Cat();
+        cat.walking(); cat.sound(); cat.numberOfLegs();
 
-        // AreaAndVolumeOfCuboid.initialize(67, 90, 40);
+        AreaAndVolumeOfCuboid.initialize(67, 90, 40);
 
-        // Rectangle rectangleOne = new Rectangle(20);
-        // Rectangle rectangleTwo = new Rectangle(10, 20);
-        // Rectangle rectangleThree = new Rectangle(10, 20, 30);
-        // rectangleOne.getArea(); rectangleTwo.getArea(); rectangleThree.getArea();
+        Rectangle rectangleOne = new Rectangle(20);
+        Rectangle rectangleTwo = new Rectangle(10, 20);
+        Rectangle rectangleThree = new Rectangle(10, 20, 30);
+        rectangleOne.getArea(); rectangleTwo.getArea(); rectangleThree.getArea();
 
-        // Cuboid cuboidOne = new Cuboid(10);
-        // Rectangle cuboidTwo = new Cuboid(30, 40, 7);
-        // Cuboid cuboidThree = new Cuboid(40, 5, 10);
-        // cuboidOne.getVolume(); cuboidTwo.getArea(); cuboidThree.getVolume();
+        Cuboid cuboidOne = new Cuboid(10);
+        Rectangle cuboidTwo = new Cuboid(30, 40, 7);
+        Cuboid cuboidThree = new Cuboid(40, 5, 10);
+        cuboidOne.getVolume(); cuboidTwo.getArea(); cuboidThree.getVolume();
 
-        // AnimalBehavoir dogBehavior = new DogBehavior();
-        // dogBehavior.walking(); dogBehavior.sound(); dogBehavior.behavior();
-        // System.out.println(dogBehavior.whatWeConclude());
+        AnimalBehavoir dogBehavior = new DogBehavior();
+        dogBehavior.walking(); dogBehavior.sound(); dogBehavior.behavior();
+        System.out.println(dogBehavior.whatWeConclude());
 
-        // Fibonacci.doFibonacci();
+        Fibonacci.doFibonacci();
 
-        // Plaindrome.checkPalindrom(321); //same same xor provide null value
-
-        Plaindrome.checkPalindrome(321);
+        Plaindrome.checkPalindrome(321); //same same xor provide null value
     }
 }
